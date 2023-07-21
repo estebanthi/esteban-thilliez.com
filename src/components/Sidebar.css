@@ -16,18 +16,6 @@
     transition: var(--dark-mode-transition);
 }
 
-.Sidebar__header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.Sidebar__header > img {
-    width: 50px;
-    height: auto;
-    border-radius: 10%;
-}
-
 .Sidebar__content {
     display: flex;
     flex-direction: column;

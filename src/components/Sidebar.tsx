@@ -1,6 +1,8 @@
 import React from "react";
 import "./Sidebar.css";
 import DarkModeToggle from "./DarkModeToggle";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./LanguageSelector";
 
 
 type SidebarProps = {
@@ -10,18 +12,18 @@ type SidebarProps = {
 
 
 const Sidebar: React.FC<SidebarProps> = ({ darkMode, setDarkMode }) => {
+
+    const { t } = useTranslation();
+
   return (
     <div className="Sidebar">
-        <div className="Sidebar__header">
-            <img src={require("../assets/icons/uk-flag.png")} alt="UK flag" />
-            <img src={require("../assets/icons/fr-flag.png")} alt="USA flag" />
-        </div>
+        <LanguageSelector />
         <div className="Sidebar__content">
-            <a href="#home">Home</a>
-            <a href="#feed">Feed</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+            <a href="#home">{t('home')}</a>
+            <a href="#feed">{t('feed')}</a>
+            <a href="#about">{t('about')}</a>
+            <a href="#projects">{t('projects')}</a>
+            <a href="#contact">{t('contact')}</a>
             <DarkModeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
     </div>
