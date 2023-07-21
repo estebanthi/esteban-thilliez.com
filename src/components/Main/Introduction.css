@@ -21,3 +21,28 @@
     width: 30%;
     height: auto;
 }
+
+.Introduction .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.Introduction .navigation > * {
+    margin: 0 10px;
+}
+
+.Introduction .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.Introduction .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 100px;
+}

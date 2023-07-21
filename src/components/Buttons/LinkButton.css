@@ -1,0 +1,40 @@
+@import "../../styles/index.css";
+
+.LinkButton {
+    background-color: var(--main-color-2);
+    color: var(--main-bg-color-dark);
+
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+
+    height: 60px;
+    width: 60px;
+
+    transform: scale(1);
+}
+
+.LinkButton:hover {
+    cursor: pointer;
+
+    background-color: var(--main-bg-color-light);
+    color: var(--main-color-2);
+
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+    transform: scale(1.1);
+}
+
+.App.dark .LinkButton:hover {
+    background-color: var(--main-bg-color-dark);
+}
+
+.App.dark .LinkButton:hover {
+}
+
+
+.LinkButton svg {
+    width: 100%;
+    height: 100%;
+}

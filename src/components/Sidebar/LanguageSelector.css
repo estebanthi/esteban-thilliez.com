@@ -1,7 +1,13 @@
+@import "../../styles/index.css";
+
+
 .LanguageSelector {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 5px;
+    background-color: var(--main-color-3-transparent);
+    border-radius: 5px;
 }
 
 .LanguageSelector img {

@@ -1,0 +1,28 @@
+@import "../../styles/index.css";
+
+.IconButton {
+    background-color: var(--main-color-3-transparent);
+    color: var(--main-color-3);
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 22px;
+
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.IconButton:hover {
+    cursor: pointer;
+    background-color: var(--main-color-3);
+    color: var(--main-bg-color-light);
+
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+
+    transform: scale(1.1);
+}
+
+.IconButton svg {
+    height: 30px;
+    width: auto;
+    margin-left: 10px;
+}
