@@ -1,0 +1,23 @@
+@import "../../styles/index.css";
+
+
+.Introduction {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Introduction > * {
+    margin: 0 50px;
+}
+
+.Introduction h1 {
+  font-size: 64px;
+    margin-bottom: 50px;
+}
+
+.Introduction img {
+    width: 30%;
+    height: auto;
+}

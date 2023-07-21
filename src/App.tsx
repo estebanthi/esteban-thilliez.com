@@ -1,10 +1,10 @@
 import React from 'react';
-import Layout from "./components/Layout";
+import Layout from "./components/Layout/Layout";
 
 import './styles/App.css';
 
 function App() {
-    const [darkMode, setDarkMode] = React.useState<boolean>(false);
+    const [darkMode, setDarkMode] = React.useState<boolean>(true);
 
 
   return (

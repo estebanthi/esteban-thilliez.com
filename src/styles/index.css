@@ -1,6 +1,10 @@
 :root {
     --main-bg-color-dark: #383838;
     --main-bg-color-light: #ececec;
+    --main-color-2: #E5C65A;
+    --main-color-3: #0A84FF;
+
+    --sidebar-width: 200px;
 
     --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out;
 }
@@ -9,4 +13,5 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }

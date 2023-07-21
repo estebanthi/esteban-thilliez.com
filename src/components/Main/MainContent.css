@@ -1,0 +1,6 @@
+@import "../../styles/index.css";
+
+.MainContent {
+    flex: 1;
+    padding: 150px;
+}

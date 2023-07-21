@@ -3,5 +3,10 @@
   "feed": "Feed",
   "about": "À propos",
   "projects": "Projets",
-  "contact": "Contact"
+  "contact": "Contact",
+
+  "introduction.title.line1": "Hello,",
+  "introduction.title.line2": "Je suis",
+  "introduction.subtitle": "Bienvenue dans mon",
+  "introduction.subtitle.universe": "univers"
 }

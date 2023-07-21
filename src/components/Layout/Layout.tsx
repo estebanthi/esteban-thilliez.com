@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import MainContent from "./MainContent";
+import Sidebar from "../Sidebar/Sidebar";
+import MainContent from "../Main/MainContent";
 
 import "./Layout.css";
 
@@ -14,8 +14,8 @@ type LayoutProps = {
 const Layout: React.FC<LayoutProps> = ({ darkMode, setDarkMode }) => {
     return (
         <div className="Layout">
-            <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
             <MainContent />
+            <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
         </div>
     );
 }

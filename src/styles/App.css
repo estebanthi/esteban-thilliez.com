@@ -3,6 +3,7 @@
 
 .App {
     background-color: var(--main-bg-color-light);
+    color: var(--main-bg-color-dark);
     transition: var(--dark-mode-transition);
 
     height: 100vh;
@@ -11,4 +12,12 @@
 .App.dark {
     background-color: var(--main-bg-color-dark);
     color: var(--main-bg-color-light);
+}
+
+.color-2 {
+    color: var(--main-color-2);
+}
+
+.color-3 {
+    color: var(--main-color-3);
 }
