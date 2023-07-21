@@ -1,0 +1,12 @@
+:root {
+    --main-bg-color-dark: #383838;
+    --main-bg-color-light: #ececec;
+
+    --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
