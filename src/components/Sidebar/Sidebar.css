@@ -3,14 +3,17 @@
 .Sidebar {
     top: 0;
     right: 0;
-    height: 100%;
+    height: 100vh;
+    position: fixed;
+
     width: var(--sidebar-width);
-    background-color: var(--main-bg-color-dark);
     padding: 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    background-color: var(--main-bg-color-dark);
 
     transition: var(--dark-mode-transition);
 }
@@ -26,10 +29,11 @@
 
 .Sidebar__content > a {
     text-decoration: none;
-    color: var(--main-bg-color-light);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+
+    color: var(--main-bg-color-light);
 }
 
 .Sidebar__content > *:hover {
@@ -37,11 +41,10 @@
     transition: transform 0.2s ease-in-out;
 }
 
+
 .App.dark .Sidebar {
     background-color: var(--main-bg-color-light);
     color: var(--main-bg-color-dark);
-
-    transition: var(--dark-mode-transition);
 }
 
 .App.dark .Sidebar__content > a {

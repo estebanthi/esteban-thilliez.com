@@ -2,36 +2,9 @@
 
 
 .Introduction {
-  display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-}
-
-.Introduction > * {
-    margin: 0 50px;
-}
-
-.Introduction h1 {
-  font-size: 64px;
-    margin-bottom: 50px;
-}
-
-.Introduction img {
-    width: 30%;
-    height: auto;
-}
-
-.Introduction .navigation {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    height: 100%;
-    margin-top: 30px;
-}
-
-.Introduction .navigation > * {
-    margin: 0 10px;
+    justify-content: space-evenly;
 }
 
 .Introduction .content {
@@ -39,10 +12,35 @@
     flex-direction: column;
 }
 
+.Introduction img {
+    height: auto;
+
+    width: 30%;
+}
+
+.Introduction h1 {
+    margin-bottom: 50px;
+
+    font-size: 4rem;
+}
+
+.Introduction .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.Introduction .navigation > * {
+    margin: 0px 10px;
+}
+
 .Introduction .links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 100px;
+
+    margin: 50px 150px;
 }

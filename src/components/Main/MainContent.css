@@ -1,6 +1,6 @@
 @import "../../styles/index.css";
 
 .MainContent {
-    flex: 1;
-    padding: 150px;
+    margin-right: var(--sidebar-width);
+    padding: 50px 0px;
 }

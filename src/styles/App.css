@@ -4,9 +4,8 @@
 .App {
     background-color: var(--main-bg-color-light);
     color: var(--main-bg-color-dark);
-    transition: var(--dark-mode-transition);
 
-    height: 100vh;
+    transition: var(--dark-mode-transition);
 }
 
 .App.dark {
