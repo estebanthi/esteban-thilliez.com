@@ -28,18 +28,22 @@
 
 .LinkButton.color-2 {
     color: var(--main-color-2);
+    fill: var(--main-color-2);
 }
 
 .LinkButton.color-2:hover {
     color: var(--main-bg-color-dark);
+    fill: var(--main-bg-color-dark);
 }
 
 .LinkButton.color-3 {
     color: var(--main-color-3);
+    fill: var(--main-color-3);
 }
 
 .LinkButton.color-3:hover {
     color: var(--main-bg-color-dark);
+    fill: var(--main-bg-color-dark);
 }
 
 .App.dark .LinkButton {
@@ -48,4 +52,5 @@
 
 .App.dark .LinkButton:hover {
     color: var(--main-bg-color-light);
+    fill: var(--main-bg-color-light);
 }

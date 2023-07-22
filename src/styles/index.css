@@ -12,7 +12,7 @@
 
     --sidebar-width: 200px;
 
-    --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out;
+    --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
 
 body {
