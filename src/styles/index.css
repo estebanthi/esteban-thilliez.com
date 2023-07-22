@@ -1,6 +1,10 @@
 :root {
     --main-bg-color-dark: #383838;
     --main-bg-color-light: #ececec;
+
+    --main-color-dark-2: #5B5B5B;
+    --main-color-light-2: #dedede;
+
     --main-color-2: #E5C65A;
     --main-color-2-transparent: #E5C65A15;
     --main-color-3: #0A84FF;

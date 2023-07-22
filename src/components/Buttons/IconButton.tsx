@@ -8,13 +8,14 @@ type IconButtonProps = {
     icon: React.ReactElement<Icon>;
     onClick: () => void;
     text: string;
+    color: string;
 }
 
 
-const IconButton: React.FC<IconButtonProps> = ({ icon, onClick, text }) => {
+const IconButton: React.FC<IconButtonProps> = ({ icon, onClick, text, color }) => {
 
     return (
-        <button className="IconButton" onClick={onClick}>
+        <button className={"IconButton " + color} onClick={onClick}>
             <span>{text}</span>
             {icon}
         </button>

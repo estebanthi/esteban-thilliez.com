@@ -8,5 +8,7 @@
   "introduction.title.line1": "Hi There,",
   "introduction.title.line2": "I'm",
   "introduction.subtitle": "Welcome to my",
-  "introduction.subtitle.universe": "universe"
+  "introduction.subtitle.universe": "universe",
+
+  "feed.view": "See more"
 }

@@ -1,0 +1,62 @@
+@import "../../styles/index.css";
+
+.FeedPost {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    background-color: var(--main-color-light-2);
+    color: var(--main-bg-color-dark);
+
+    border-radius: 10px;
+
+    margin: 50px 30px;
+
+    transition: var(--dark-mode-transition);
+}
+
+.FeedPost img {
+    width: 100%;
+    height: auto;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    opacity: 0.8;
+}
+
+.FeedPost .content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    padding: 20px 20px;
+}
+
+.FeedPost .content h3 {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 1.5rem;
+
+    text-align: left;
+}
+
+.FeedPost .content p {
+    margin: 0;
+    margin-bottom: 10px;
+
+    font-size: 1rem;
+    text-align: left;
+    font-style: italic;
+
+    opacity: 0.5;
+}
+
+.App.dark .FeedPost {
+    background-color: var(--main-color-dark-2);
+}
+
+.App.dark .FeedPost {
+    color: var(--main-bg-color-light);
+}

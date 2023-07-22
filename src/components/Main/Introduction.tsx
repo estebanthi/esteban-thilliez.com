@@ -39,15 +39,15 @@ const Introduction: React.FC = () => {
                 <h2>{t('introduction.subtitle')} {typeAnimation}</h2>
                 
                 <div className="navigation">
-                    <a href="#feed"><IconButton icon={<RssFill/>} text={t('feed')} onClick={() => {} }/></a>
-                    <a href="#about"><IconButton icon={<QuestionCircleFill/>} text={t('about')} onClick={() => {} }/></a>
-                    <a href="#projects"><IconButton icon={<KanbanFill/>} text={t('projects')} onClick={() => {} }/></a>
-                    <a href="#contact"><IconButton icon={<SendFill/>} text={t('contact')} onClick={() => {} }/></a>
+                    <a href="#feed"><IconButton icon={<RssFill/>} text={t('feed')} onClick={() => {} } color="color-3"/></a>
+                    <a href="#about"><IconButton icon={<QuestionCircleFill/>} text={t('about')} onClick={() => {} } color="color-3"/></a>
+                    <a href="#projects"><IconButton icon={<KanbanFill/>} text={t('projects')} onClick={() => {} } color="color-3"/></a>
+                    <a href="#contact"><IconButton icon={<SendFill/>} text={t('contact')} onClick={() => {} } color="color-3"/></a>
                 </div>
 
                 <div className="links">
                     {links.map((link, index) => {
-                        return <LinkButton key={index} icon={link.icon} link={link.link}/>
+                        return <LinkButton key={index} icon={link.icon} link={link.link} color={"color-2"}/>
                     })}
                 </div>
             </div>
