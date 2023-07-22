@@ -12,9 +12,17 @@ type DarkModeToggleProps = {
 
 
 const DarkModeToggle: React.FC<DarkModeToggleProps> = ({ darkMode, setDarkMode }) => {
+
+    const toggleDarkMode = () => {
+        setDarkMode(!darkMode);
+        if (typeof window !== "undefined" && window.localStorage) {
+            window.localStorage.setItem("color-theme", darkMode ? "light" : "dark");
+        }
+    }
+
     return (
         <div className="DarkModeToggle">
-            <BrightnessHigh onClick={() => setDarkMode(!darkMode)} className="DarkModeToggle__icon" />
+            <BrightnessHigh onClick={toggleDarkMode} className="DarkModeToggle__icon" />
         </div>
     );
 }
