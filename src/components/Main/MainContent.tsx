@@ -4,6 +4,7 @@ import "./MainContent.css";
 import Introduction from "./Introduction";
 import Feed from "./Feed";
 import About from "./About";
+import Projects from "./Projects";
 
 
 const MainContent: React.FC = () => {
@@ -12,6 +13,7 @@ const MainContent: React.FC = () => {
             <Introduction />
             <Feed />
             <About />
+            <Projects />
         </div>
     );
 }

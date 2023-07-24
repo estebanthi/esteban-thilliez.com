@@ -1,0 +1,12 @@
+.Projects {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.Projects > h1 {
+    margin-bottom: 50px;
+
+    font-size: 3rem;
+}

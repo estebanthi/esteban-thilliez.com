@@ -1,0 +1,36 @@
+@import "../../styles/index.css";
+
+.ProjectHero {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ProjectHero.right {
+    flex-direction: row-reverse;
+}
+
+.ProjectHero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 52%;
+}
+
+.ProjectHero__image {
+    height: 400px;
+
+    flex: 1;
+}
+
+
+.ProjectHero.color-2 .ProjectHero__content {
+    background-color: var(--main-color-2-transparent);
+}
+
+.ProjectHero.color-3 .ProjectHero__content {
+    background-color: var(--main-color-3-transparent);
+}

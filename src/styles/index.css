@@ -11,6 +11,7 @@
     --main-color-3-transparent: #0A84FF15;
 
     --sidebar-width: 200px;
+    --main-padding: 100px;
 
     --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
 }
