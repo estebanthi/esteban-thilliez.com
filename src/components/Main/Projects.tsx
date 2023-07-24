@@ -9,24 +9,7 @@ const Projects = () => {
     React.useEffect(() => {
     }, [i18n.language]);
 
-    const projects = [
-        {
-            title_en: "Project 1",
-            description_en: "Description 1",
-            title_fr: "Projet 1",
-            description_fr: "Description 1",
-            image: "https://via.placeholder.com/500",
-            link: "https://google.com",
-        },
-        {
-            title_en: "Project 2",
-            description_en: "Description 2",
-            title_fr: "Projet 2",
-            description_fr: "Description 2",
-            image: "https://via.placeholder.com/500",
-            link: "https://google.com",
-        }
-        ];
+    const projects = require("../../assets/data/projects.json");
 
     const getSide = (index: number) => {
         if (index % 2 === 0) {
@@ -43,10 +26,10 @@ const Projects = () => {
     }
 
     return (
-        <div className="Projects">
+        <div className="Projects" id="projects">
             <h1>{t("projects")}</h1>
             <div className="Projects__container">
-                {projects.map((project, index) => ProjectHero({
+                {projects.map((project: any, index: number) => ProjectHero({
                     title: i18n.language === "en" ? project.title_en : project.title_fr,
                     description: i18n.language === "en" ? project.description_en : project.description_fr,
                     image: project.image,

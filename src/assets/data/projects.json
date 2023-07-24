@@ -1,0 +1,18 @@
+[
+  {
+    "title_en": "ProPython",
+    "title_fr": "ProPython",
+    "description_en": "",
+    "description_fr": "ProPython est un blog sur le langage de programmation Python. Il est destiné aux développeurs de tous niveaux, du débutant au confirmé.\n\nJ'y ai écrit plusieurs articles pour apprendre le Python, ainsi que des séries sous forme de formation.\n\nJe l'ai réalisé avec NextJS, TailwindCSS, GraphQL, et GraphCMS.",
+    "image": "propython.png",
+    "link": "https://www.propython.fr/"
+  },
+  {
+    "title_fr": "Mindtopia",
+    "title_en": "Mindtopia",
+    "description_fr": "BLablabla",
+    "description_en": "Blablabla",
+    "image": "mindtopia.png",
+    "link": "https://www.mindtopia.fr/"
+  }
+  ]
