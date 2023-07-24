@@ -9,7 +9,7 @@ const Projects = () => {
     React.useEffect(() => {
     }, [i18n.language]);
 
-    const projects = require("../../assets/data/projects.json");
+    const projects = require("../../assets/data/projects/projects.json");
 
     const getSide = (index: number) => {
         if (index % 2 === 0) {
@@ -19,7 +19,7 @@ const Projects = () => {
     }
 
     const getColor = (index: number) => {
-        if (index % 2 === 0) {
+        if (index % 2 === 1) {
             return "color-2";
         }
         return "color-3";
@@ -36,6 +36,8 @@ const Projects = () => {
                     link: project.link,
                     side: getSide(index),
                     color: getColor(index),
+                    skills: project.skills,
+                    logo: project.logo
                 }))}
             </div>
         </div>

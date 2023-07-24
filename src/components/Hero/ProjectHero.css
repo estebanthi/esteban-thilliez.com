@@ -33,6 +33,14 @@
     white-space: pre-line;
 }
 
+.ProjectHero__logo {
+    width: 8%;
+    height: auto;
+    margin-bottom: 10px;
+
+    opacity: 0.8;
+}
+
 .ProjectHero__skills {
     display: flex;
     flex-direction: row;
@@ -63,7 +71,7 @@
 
 .ProjectHero__image {
     flex: 1;
-    opacity: 0.8;
+    opacity: 1;
 
     width: 48%;
 
@@ -76,6 +84,14 @@
     background-color: var(--main-color-2-transparent);
 }
 
+.ProjectHero.color-3 h3 {
+    color: var(--main-color-2);
+}
+
 .ProjectHero.color-3 {
     background-color: var(--main-color-3-transparent);
+}
+
+.ProjectHero.color-2 h3 {
+    color: var(--main-color-3);
 }

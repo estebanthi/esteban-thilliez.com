@@ -1,0 +1,41 @@
+[
+  {
+    "title_en": "ProPython",
+    "title_fr": "ProPython",
+    "description_en": "ProPython is a blog about the Python programming language. It's aimed at developers of all levels, from beginner to advanced.\n\nI've written several articles to help you learn Python, as well as a series of training courses.\n\nI've also integrated a paid option and a subscription system enabling you to access all the articles, using the Stripe API.",
+    "description_fr": "ProPython est un blog sur le langage de programmation Python. Il est destiné aux développeurs de tous niveaux, du débutant au confirmé.\n\nJ'y ai écris plusieurs articles pour apprendre le Python, ainsi que des séries sous forme de formation.\n\nJ'ai également intégré une option payante et un système d'abonnement permettant d'accéder à tous les articles, en utilisant l'API Stripe.",
+    "image": "propython.png",
+    "link": "https://www.propython.fr/",
+    "skills": [
+      "nextjs",
+      "tailwindcss",
+      "graphql"
+    ],
+    "logo": "propython-logo.png"
+  },
+  {
+    "title_fr": "Mindtopia",
+    "title_en": "Mindtopia",
+    "description_fr": "Sur Mindtopia, je partage mes notes personnelles (que je souhaite bien rendre publiques) sur tout et n'importe quoi.\n\nEn façade, c'est un site web, mais en fait toutes mes notes sont stockées en local sous forme de fichiers Markdown auxquels j'accède avec Obsidian, et celles que je choisis de mettre publiques sont déployées sur le site automatiquement.",
+    "description_en": "On Mindtopia, I share my personal notes (which I want to make public) on anything and everything.\n\nOn the front end, it's a website, but in fact all my notes are stored locally as Markdown files which I access with Obsidian, and the ones I choose to make public are deployed to the site automatically.",
+    "image": "mindtopia.png",
+    "link": "https://mindtopia.esteban-thilliez.com/",
+    "skills": [
+      "javascript"
+    ],
+    "logo": "mindtopia-logo.png"
+  },
+  {
+    "title_fr": "The Vintageers",
+    "title_en": "The Vintageers",
+    "description_fr": "The Vintageers est une future friperie de vêtements vintage, surtout de la seconde main mais aussi des pièces plus rares comme certaines sneakers de collection.\n\nLe site est en cours de développement.",
+    "description_en": "The Vintageers is a future vintage clothing store, mostly second hand but also rarer pieces like some collection sneakers.\n\nThe site is under development.",
+    "image": "thevintageers.png",
+    "link": "https://www.thevintageers.com/",
+    "skills": [
+      "wordpress",
+      "woocommerce"
+    ],
+    "logo": "thevintageers-logo.png"
+    }
+  ]

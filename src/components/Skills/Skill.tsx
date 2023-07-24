@@ -12,10 +12,16 @@ type SkillProps = {
 
 
 const Skill = ({ icon, name, color }: SkillProps) => {
+    const generateId = () => {
+        return Math.random().toString(36).substring(2, 15);
+    }
+
+    const id = generateId();
+
     return (
-        <div className={"Skill " + color} data-tooltip-id={name} data-tooltip-content={name} data-tooltip-place={"bottom"}>
+        <div className={"Skill " + color} data-tooltip-id={id} data-tooltip-content={name} data-tooltip-place={"bottom"}>
             <img src={icon} alt={name} />
-            <Tooltip id={name}/>
+            <Tooltip id={id} className="tooltip"/>
         </div>
     );
 }
