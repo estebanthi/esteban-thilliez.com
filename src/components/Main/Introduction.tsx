@@ -18,6 +18,8 @@ import {
 import LinkButton from "../Buttons/LinkButton";
 import links from "../../assets/data/links";
 
+import { ReactComponent as Me } from "../../assets/me/me1.svg";
+
 
 const Introduction: React.FC = () => {
 
@@ -29,7 +31,48 @@ const Introduction: React.FC = () => {
             setTimeout(() => {
                 setTypeAnimation(<TypeAnimation sequence={[t('introduction.subtitle.universe')]} wrapper="span" repeat={0} className="color-3"/>);
             }, 0);
+
+            initialSvgPathsColor();
     }, [t]);
+
+    const pathsColors = [{"color-2": 35}, {"color-3": 35}, {"color-2-transparent": 15}, {"color-3-transparent": 15}];
+
+    const initialSvgPathsColor = () => {
+        const svg = document.querySelector(".Introduction .me");
+        if (svg) {
+            const paths = svg.querySelectorAll("path");
+            paths.forEach((path) => {
+                path.style.fill = "var(--main-color-3)";
+            })
+        }
+    }
+
+    const randomizeSvgPathsColor = () => {
+        const svg = document.querySelector(".Introduction .me");
+        if (svg) {
+            const paths = svg.querySelectorAll("path");
+            paths.forEach((path) => {
+                const getColor = () => {
+                    const random = Math.floor(Math.random() * 100);
+                    let total = 0;
+                    for (let i = 0; i < pathsColors.length; i++) {
+                        total += Object.values(pathsColors[i])[0];
+                        if (random <= total) {
+                            return Object.keys(pathsColors[i])[0];
+                        }
+                    }
+                }
+                const color = getColor();
+                path.style.fill = "var(--main-" + color + ")";
+            })
+        }
+    }
+
+    setTimeout(() => {
+        setInterval(() => {
+            randomizeSvgPathsColor();
+        }, 800);
+    }, 5000);
 
     return (
         <div className="Introduction">
@@ -51,7 +94,7 @@ const Introduction: React.FC = () => {
                     })}
                 </div>
             </div>
-            <img src="https://via.placeholder.com/150" alt="John Doe" />
+            <Me className="me"/>
         </div>
     );
 }

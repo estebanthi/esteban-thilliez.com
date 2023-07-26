@@ -4,7 +4,7 @@
 .Introduction {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
     padding: 50px var(--main-padding);
 }
@@ -12,9 +12,10 @@
 .Introduction .content {
     display: flex;
     flex-direction: column;
+    animation: 2s ease-in-out 0s 1 slideInFromLeft;
 }
 
-.Introduction img {
+.Introduction svg {
     height: auto;
 
     width: 30%;
@@ -45,4 +46,39 @@
     align-items: center;
 
     margin: 50px 150px;
+}
+
+.Introduction .me {
+    background-color: var(--main-bg-color-light);
+    border-radius: 10%;
+
+    animation: 2s ease-in-out 0s 1 slideInFromRight;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
