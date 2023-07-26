@@ -30,5 +30,15 @@
   "contact.error": "Une erreur est survenue, veuillez réessayer plus tard.",
     "contact.success": "Votre message a bien été envoyé ! Je vous répondrai dès que possible.",
   "contact.desc": "Contactez-moi à ",
-    "contact.desc2": " ou via le formulaire ci-dessous."
+    "contact.desc2": " ou via le formulaire ci-dessous.",
+
+  "footer.thanks": "Merci !",
+  "footer.thanks_text": "Thank you for visiting my website. I hope you enjoyed what you found here!\n\nFeel free to send me a message for any inquiries.",
+  "footer.thanks_text": "Merci d'avoir visité mon site web. J'espère que vous avez apprécié ce que vous y avez trouvé !\n\nN'hésitez pas à m'envoyer un message pour toute demande.",
+  "footer.links": "Liens",
+  "footer.contact": "Contact",
+
+  "madeby.1": "Fait avec",
+    "madeby.2": "par Esteban Thilliez. Designé avec Figma. Développé avec React. Hébergé sur Vercel. Code source ",
+    "madeby.3": "ici"
 }

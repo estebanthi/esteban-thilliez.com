@@ -29,5 +29,14 @@
   "contact.error": "An error occurred while sending the message. Please try again later.",
   "contact.success": "Message sent successfully! I will get back to you as soon as possible.",
   "contact.desc": "Email me at ",
-    "contact.desc2": " or use the form below."
+    "contact.desc2": " or use the form below.",
+
+  "footer.thanks": "Thanks!",
+    "footer.thanks_text": "Thank you for visiting my website. I hope you enjoyed what you found here!\n\nFeel free to send me a message for any inquiries.",
+  "footer.links": "Links",
+  "footer.contact": "Contact",
+
+  "madeby.1": "Made with",
+  "madeby.2": "by Esteban Thilliez. Designed with Figma. Powered by React. Hosted on Vercel. Source ",
+    "madeby.3": "here"
 }

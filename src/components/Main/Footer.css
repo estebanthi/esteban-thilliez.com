@@ -1,0 +1,174 @@
+@import "../../styles/index.css";
+
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    background-color: var(--main-color-dark-2);
+    margin-bottom: 0;
+    width: 100%;
+
+    color: var(--main-bg-color-light);
+
+    transition: var(--dark-mode-transition);
+}
+
+.Footer a {
+    color: var(--main-bg-color-light);
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.Footer svg {
+    fill: var(--main-bg-color-light);
+}
+
+.FooterContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 30px 50px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.FooterContent > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+
+    width: 100%;
+    white-space: pre-line;
+}
+
+.Footer_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    margin-top: 30px;
+}
+
+.Footer_links > * {
+    background: none;
+}
+
+
+.Footer_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+    width: 100%;
+    white-space: pre-line;
+}
+
+.Footer_contact > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.Footer_contact > div > * {
+    margin: 0 10px;
+}
+
+.Footer_contact svg {
+    width: 30px;
+    height: auto;
+}
+
+.Footer_madeby {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    z-index: 100;
+    padding: 20px 0;
+
+    background-color: var(--main-bg-color-light);
+    color: var(--main-bg-color-dark);
+
+    transition: var(--dark-mode-transition);
+}
+
+.Footer_madeby > * {
+    margin: 0;
+}
+
+.Footer_madeby svg {
+    width: 20px;
+    height: auto;
+    fill: #b60505;
+
+    animation: pulse 1s infinite alternate;
+}
+
+.Footer_madeby a {
+    color: var(--main-bg-color-dark);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    5% {
+        transform: scale(1.2);
+    }
+    10% {
+        transform: scale(1);
+    }
+}
+
+.App.dark .Footer {
+    background-color: var(--main-color-light-2);
+    color: var(--main-bg-color-dark);
+}
+
+.App.dark .Footer a {
+    color: var(--main-bg-color-dark);
+}
+
+.App.dark .Footer_links > * {
+    background: none;
+}
+
+.App.dark .Footer svg {
+    fill: var(--main-bg-color-dark);
+}
+
+.App.dark .Footer_madeby {
+    background-color: var(--main-bg-color-dark);
+    color: var(--main-bg-color-light);
+}
+
+.App.dark .Footer_madeby svg {
+    fill: var(--main-bg-color-light);
+}
+
+.App.dark .Footer_madeby a {
+    color: var(--main-bg-color-light);
+}
+
+.App.dark .Footer_madeby svg {
+    fill: #dc1010;
+}
+
+

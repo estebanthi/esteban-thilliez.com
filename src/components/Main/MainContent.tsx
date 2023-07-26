@@ -6,6 +6,7 @@ import Feed from "./Feed";
 import About from "./About";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 
 const MainContent: React.FC = () => {
@@ -16,6 +17,7 @@ const MainContent: React.FC = () => {
             <About />
             <Projects />
             <Contact />
+            <Footer />
         </div>
     );
 }
