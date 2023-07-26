@@ -36,7 +36,7 @@ return (
                 </div>
             </div>
             <div className="Footer_madeby">
-                <p>{t("madeby.1")} <HeartFill /> {t("madeby.2")}<a href="https://github.com/estebanthi/esteban-thilliez.com" target="_blank"> {t("madeby.3")}</a></p>
+                <p>{t("madeby.1")} <HeartFill /> {t("madeby.2")}<a href="https://github.com/estebanthi/esteban-thilliez.com" target="_blank"> {t("madeby.3")}</a>.</p>
             </div>
         </div>
     );
