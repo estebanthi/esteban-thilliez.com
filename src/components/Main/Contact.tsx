@@ -23,6 +23,7 @@ const Contact: React.FC = () => {
             <div className="Contact" id={"contact"}>
                 <h1>{t('contact')}</h1>
                 {typeAnimation}
+                <p>{t('contact.desc')}<a href="mailto:contact@esteban-thilliez.com">contact@esteban-thilliez.com</a>{t('contact.desc2')}</p>
                 <ContactForm />
             </div>
         );

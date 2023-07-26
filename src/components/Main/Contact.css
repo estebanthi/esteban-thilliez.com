@@ -9,6 +9,11 @@
     font-size: 3rem;
 }
 
-.Contact > h2 {
-    margin-bottom: 50px;
+.Contact > h3 {
+    margin-bottom: 30px;
+}
+
+.Contact a {
+    color: var(--main-color-2);
+    font-weight: 600;
 }

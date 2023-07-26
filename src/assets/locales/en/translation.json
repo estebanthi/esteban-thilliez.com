@@ -27,5 +27,7 @@
     "contact.message": "Message",
     "contact.send": "Send",
   "contact.error": "An error occurred while sending the message. Please try again later.",
-  "contact.success": "Message sent successfully! I will get back to you as soon as possible."
+  "contact.success": "Message sent successfully! I will get back to you as soon as possible.",
+  "contact.desc": "Email me at ",
+    "contact.desc2": " or use the form below."
 }
