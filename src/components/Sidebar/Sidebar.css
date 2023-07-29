@@ -18,11 +18,12 @@
     transition: var(--dark-mode-transition);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .Sidebar {
         flex-direction: row;
         height: var(--sidebar-width);
         width: 100vw;
+        padding: 10px;
     }
 }
 
@@ -44,9 +45,29 @@
     color: var(--main-bg-color-light);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 650px) {
     .Sidebar__content > a {
         display: none;
+    }
+
+    .Sidebar {
+        justify-content: space-between;
+    }
+
+    .Sidebar__content {
+        justify-content: flex-end;
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Sidebar {
+        justify-content: start;
+    }
+
+    .Sidebar__content {
+        flex-direction: row;
+        width: 100%;
     }
 }
 

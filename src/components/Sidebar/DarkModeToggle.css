@@ -5,6 +5,12 @@
   width: 30px;
 }
 
+@media (max-width: 1024px) {
+  .DarkModeToggle {
+    width: 20px;
+  }
+}
+
 .DarkModeToggle:hover {
   cursor: pointer;
 }

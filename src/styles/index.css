@@ -10,20 +10,29 @@
     --main-color-3: #0A84FF;
     --main-color-3-transparent: #0A84FF15;
 
-    --sidebar-width: 200px;
-    --main-padding: 100px;
+    --sidebar-width: 160px;
+    --main-padding: 60px;
 
     --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
 
     font-size: 16px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     :root {
         --main-padding: 30px;
         --sidebar-width: 50px;
 
         font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    :root {
+        --main-padding: 30px;
+        --sidebar-width: 150px;
+
+        font-size: 14px;
     }
 }
 
