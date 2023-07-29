@@ -6,8 +6,8 @@
 
     transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
 
-    height: 60px;
-    width: 60px;
+    width: 100%;
+    height: auto;
 
     background-color: var(--main-bg-color-light);
 

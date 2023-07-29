@@ -9,10 +9,22 @@
     padding: 50px var(--main-padding);
 }
 
+@media (max-width: 768px) {
+    .Introduction {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
 .Introduction .content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     animation: 2s ease-in-out 0s 1 slideInFromLeft;
+
+    width: 100%;
 }
 
 .Introduction svg {
@@ -21,10 +33,22 @@
     width: 30%;
 }
 
+@media (max-width: 768px) {
+    .Introduction svg {
+        width: 50%;
+    }
+}
+
 .Introduction h1 {
     margin-bottom: 50px;
 
     font-size: 4rem;
+}
+
+@media (max-width: 768px) {
+    .Introduction h1 {
+        font-size: 2.5rem;
+    }
 }
 
 .Introduction .navigation {
@@ -33,10 +57,35 @@
     justify-content: space-between;
 
     margin-top: 30px;
+
+    width: 100%;
 }
 
 .Introduction .navigation > * {
-    margin: 0px 10px;
+    width: 100%;
+    margin: 0 2%;
+}
+
+@media (max-width: 768px) {
+    .Introduction .navigation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10px;
+
+        justify-items: center;
+        align-items: center;
+
+        margin-top: 30px;
+    }
+
+    .Introduction .navigation > * {
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 .Introduction .links {
@@ -45,8 +94,17 @@
     justify-content: space-around;
     align-items: center;
 
-    margin: 50px 150px;
+    margin: 10%;
+    width: 80%;
+    max-width: 600px;
 }
+
+.Introduction .links > * {
+    margin: 0 10px;
+    max-width: 50px;
+}
+
+
 
 .Introduction .me {
     background-color: var(--main-bg-color-light);
@@ -54,6 +112,7 @@
 
     animation: 2s ease-in-out 0s 1 slideInFromRight;
 }
+
 
 @keyframes slideInFromLeft {
     0% {

@@ -5,9 +5,17 @@
     padding: 15px;
     border-radius: 10px;
     border: none;
-    font-size: 22px;
+    font-size: 1.5rem;
+
+    width: 100%;
 
     transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .IconButton {
+        padding: 10px;
+    }
 }
 
 .IconButton:hover {
@@ -23,6 +31,14 @@
     height: 30px;
     width: auto;
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+
+    .IconButton svg {
+        height: 100%;
+    }
+
 }
 
 .IconButton.color-2 {

@@ -17,6 +17,12 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .ContactForm .section1 {
+    flex-direction: column;
+  }
+}
+
 .ContactForm .section2 {
   display: flex;
   flex-direction: column;

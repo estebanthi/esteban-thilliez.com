@@ -10,3 +10,9 @@
 
     font-size: 3rem;
 }
+
+@media (max-width: 768px) {
+    .Projects > h1 {
+        font-size: 2rem;
+    }
+}

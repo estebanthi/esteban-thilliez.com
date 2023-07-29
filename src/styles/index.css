@@ -14,14 +14,25 @@
     --main-padding: 100px;
 
     --dark-mode-transition: background-color 0.25s ease-in-out, fill 0.25s ease-in-out, color 0.25s ease-in-out, transform 0.25s ease-in-out;
+
+    font-size: 16px;
 }
+
+@media (max-width: 768px) {
+    :root {
+        --main-padding: 30px;
+        --sidebar-width: 50px;
+
+        font-size: 12px;
+    }
+}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
-    font-size: 16px;
 
     overflow-x: hidden;
 }

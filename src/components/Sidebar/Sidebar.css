@@ -18,6 +18,14 @@
     transition: var(--dark-mode-transition);
 }
 
+@media (max-width: 768px) {
+    .Sidebar {
+        flex-direction: row;
+        height: var(--sidebar-width);
+        width: 100vw;
+    }
+}
+
 .Sidebar__content {
     display: flex;
     flex-direction: column;
@@ -34,6 +42,12 @@
     text-transform: uppercase;
 
     color: var(--main-bg-color-light);
+}
+
+@media (max-width: 768px) {
+    .Sidebar__content > a {
+        display: none;
+    }
 }
 
 .Sidebar__content > *:hover {

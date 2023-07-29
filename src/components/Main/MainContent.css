@@ -10,6 +10,14 @@
     margin-right: var(--sidebar-width);
 }
 
+@media (max-width: 768px) {
+    .MainContent {
+        margin-right: 0;
+        margin-top: var(--sidebar-width);
+    }
+}
+
+
 .MainContent > * {
     margin-bottom: 150px;
     width: 100%;
