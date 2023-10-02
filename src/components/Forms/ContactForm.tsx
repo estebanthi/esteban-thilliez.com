@@ -52,12 +52,11 @@ const ContactForm = () => {
             setError("email");
         } else {
             const url = process.env.REACT_APP_MAIL_API_URL as string;
-            const email = form.email;
             const text = `Name: ${form.name}\nEmail: ${form.email}\nMessage: ${form.message}`;
             const subject = "[Portfolio] New message from " + form.name;
 
             const body = {
-                to: email,
+                to: process.env.REACT_APP_MAIL_TO as string,
                 text,
                 subject
             }
