@@ -3,7 +3,7 @@
     "title_en": "ProPython",
     "title_fr": "ProPython",
     "description_en": "ProPython is a blog about the Python programming language. It's aimed at developers of all levels, from beginner to advanced.\n\nI've written several articles to help you learn Python, as well as a series of training courses.\n\nI've also integrated a paid option and a subscription system enabling you to access all the articles, using the Stripe API.",
-    "description_fr": "ProPython est un blog sur le langage de programmation Python. Il est destiné aux développeurs de tous niveaux, du débutant au confirmé.\n\nJ'y ai écris plusieurs articles pour apprendre le Python, ainsi que des séries sous forme de formation.\n\nJ'ai également intégré une option payante et un système d'abonnement permettant d'accéder à tous les articles, en utilisant l'API Stripe.",
+    "description_fr": "ProPython est un blog sur le langage de programmation Python. Il est destiné aux développeurs de tous niveaux, du débutant au confirmé.\n\nJ'y ai écrit plusieurs articles pour apprendre le Python, ainsi que des séries sous forme de formation.\n\nJ'ai également intégré une option payante et un système d'abonnement permettant d'accéder à tous les articles, en utilisant l'API de Stripe.",
     "image": "propython.png",
     "link": "https://propython.esteban-thilliez.com/",
     "skills": [
@@ -34,7 +34,8 @@
     "link": "https://www.thevintageers.com/",
     "skills": [
       "wordpress",
-      "woocommerce"
+      "woocommerce",
+      "php"
     ],
     "logo": "thevintageers-logo.png"
     }
