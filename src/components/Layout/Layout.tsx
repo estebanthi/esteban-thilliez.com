@@ -8,14 +8,15 @@ import "./Layout.css";
 type LayoutProps = {
     darkMode: boolean;
     setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+    setCursorColorChange: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 
-const Layout: React.FC<LayoutProps> = ({ darkMode, setDarkMode }) => {
+const Layout: React.FC<LayoutProps> = ({ darkMode, setDarkMode, setCursorColorChange }) => {
     return (
         <div className="Layout">
-            <MainContent />
-            <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
+            <MainContent setCursorColorChange={setCursorColorChange}/>
+            <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} setCursorColorChange={setCursorColorChange}/>
         </div>
     );
 }

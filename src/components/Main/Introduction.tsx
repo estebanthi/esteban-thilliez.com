@@ -71,7 +71,7 @@ const Introduction: React.FC = () => {
     setTimeout(() => {
         setInterval(() => {
             randomizeSvgPathsColor();
-        }, 800);
+        }, 3000);
     }, 5000);
 
     return (

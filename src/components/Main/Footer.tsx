@@ -8,11 +8,15 @@ import LinkButton from "../Buttons/LinkButton";
 import {BalloonHeart, EnvelopeFill, Heart, HeartFill, HeartPulse} from "react-bootstrap-icons";
 
 
-const Footer: React.FC = () => {
+type FooterProps = {
+    setCursorColorChange: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+const Footer: React.FC<FooterProps> = ({ setCursorColorChange }) => {
     const { t } = useTranslation();
 return (
         <div className="Footer">
-            <div className="FooterContent">
+            <div className="FooterContent" onMouseEnter={() => setCursorColorChange(true)} onMouseLeave={() => setCursorColorChange(false)}>
                 <div>
                     <h3>{t("footer.thanks")}</h3>
                     <p>{t("footer.thanks_text")}</p>

@@ -8,15 +8,16 @@ import LanguageSelector from "./LanguageSelector";
 type SidebarProps = {
     darkMode: boolean;
     setDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+    setCursorColorChange: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 
-const Sidebar: React.FC<SidebarProps> = ({ darkMode, setDarkMode }) => {
+const Sidebar: React.FC<SidebarProps> = ({ darkMode, setDarkMode, setCursorColorChange }) => {
 
     const { t } = useTranslation();
 
   return (
-    <div className="Sidebar">
+    <div className="Sidebar" onMouseEnter={() => setCursorColorChange(true)} onMouseLeave={() => setCursorColorChange(false)}>
         <LanguageSelector />
         <div className="Sidebar__content">
             <a href="#home">{t('home')}</a>

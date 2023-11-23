@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from "./components/Layout/Layout";
+import DotRing from "./components/Cursors/DotRing";
 
 import './styles/App.css';
 
@@ -21,10 +22,13 @@ function App() {
     }
     const [darkMode, setDarkMode] = React.useState<boolean>(getInitialTheme() === "dark");
 
+    const [cursorColorChange, setCursorColorChange] = React.useState<boolean>(false);
+
 
   return (
     <div className={`App ${darkMode ? "dark" : ""}`}>
-      <Layout darkMode={darkMode} setDarkMode={setDarkMode} />
+        <DotRing cursorColorChange={cursorColorChange}/>
+      <Layout darkMode={darkMode} setDarkMode={setDarkMode} setCursorColorChange={setCursorColorChange}/>
     </div>
   );
 }

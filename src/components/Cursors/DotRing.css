@@ -1,0 +1,63 @@
+.dot-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  border: 2px solid var(--main-color-dark-2);
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+    z-index: 999;
+    pointer-events: none;
+    animation: ring 0.5s infinite;
+}
+
+.dot {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  pointer-events: none;
+  border: 2px solid var(--main-color-dark-2);
+}
+
+.App.dark .dot-ring {
+  border: 2px solid var(--main-color-light-2);
+}
+
+.App.dark .dot {
+  border: 2px solid var(--main-color-light-2);
+}
+
+@keyframes ring {
+  0% {
+    width: 22px;
+    height: 22px;
+    opacity: 0.4;
+  }
+  100% {
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+  }
+}
+
+.dot-ring--active {
+  border: 2px solid var(--main-color-light-2);
+}
+
+.App.dark .dot-ring--active {
+  border: 2px solid var(--main-color-dark-2);
+}
+
+.dot--active {
+  border: 2px solid var(--main-color-light-2);
+}
+
+.App.dark .dot--active {
+    border: 2px solid var(--main-color-dark-2);
+}

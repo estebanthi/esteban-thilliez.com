@@ -9,7 +9,12 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 
 
-const MainContent: React.FC = () => {
+type MainContentProps = {
+    setCursorColorChange: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+
+const MainContent: React.FC<MainContentProps> = ({ setCursorColorChange }) => {
     return (
         <div className="MainContent" id="home">
             <Introduction />
@@ -17,7 +22,7 @@ const MainContent: React.FC = () => {
             <About />
             <Projects />
             <Contact />
-            <Footer />
+            <Footer setCursorColorChange={setCursorColorChange}/>
         </div>
     );
 }
