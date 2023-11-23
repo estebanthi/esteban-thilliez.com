@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import { useTranslation } from "react-i18next";
 import ProjectHero from "../Hero/ProjectHero";
+import VerticalText from "../Text/VerticalText";
 
 const Projects = () => {
     const { t, i18n } = useTranslation();
@@ -39,6 +40,9 @@ const Projects = () => {
                     skills: project.skills,
                     logo: project.logo
                 }))}
+            </div>
+            <div className="VerticalText__container">
+                <VerticalText text={t("projects.more")} />
             </div>
         </div>
     );
