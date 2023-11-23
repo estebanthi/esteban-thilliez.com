@@ -26,6 +26,7 @@
   {"icon":  "https://img.icons8.com/?size=512&id=WHRLQdbEXQ16&format=png", "en":  "GCP", "fr":  "GCP"},
   {"icon":  "https://img.icons8.com/?size=512&id=33039&format=png", "en":  "AWS", "fr":  "AWS"},
   {"icon":  "https://img.icons8.com/?size=512&id=13443&format=png", "en":  "Raspberry Pi", "fr":  "Raspberry Pi"},
+  {"icon":  "https://cdn.iconscout.com/icon/free/png-256/free-docker-3521391-2944835.png", "en":  "Docker", "fr":  "Docker"},
   {"icon":  "https://img.icons8.com/color/48/000000/wordpress.png", "en":  "WordPress", "fr":  "WordPress", "id":  "wordpress"},
   {"icon":  "https://img.icons8.com/color/48/000000/woocommerce.png", "en":  "WooCommerce", "fr":  "WooCommerce", "id":  "woocommerce"},
   {"icon":  "https://img.icons8.com/color/48/000000/shopify.png", "en":  "Shopify", "fr":  "Shopify"},
