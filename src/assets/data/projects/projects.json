@@ -18,6 +18,19 @@
     "logo": "vintools-logo.png"
   },
   {
+    "title_fr": "Patatri",
+    "title_en": "Patatri",
+    "description_fr": "Génération d'images de pommes de terre par intelligence artificielle afin d'enrichir le dataset d'entraînement du trieur optique de Downs.\n\nDéveloppement de GAN (Generative Adversarial Network), entraînement et fine-tuning de modèles de diffusion, afin de créer un pipeline complet permettant de générer une image telle qu'attendue par le modèle de classification du trieur optique, selon une classe choisie par l'utilisateur.",
+    "description_en": "Generation of potato images by artificial intelligence to enrich the training dataset of Downs' optical sorter.\n\nDevelopment of GAN (Generative Adversarial Network), training and fine-tuning of diffusion models, in order to create a complete pipeline allowing to generate an image as expected by the classification model of the optical sorter, according to a class chosen by the user.",
+    "link": "https://www.downs.fr/produits/downs-cropvision/",
+    "image": "downs.png",
+    "skills": [
+      "python",
+      "pytorch",
+      "tensorflow"
+    ]
+  },
+  {
     "title_en": "ProPython",
     "title_fr": "ProPython",
     "description_en": "ProPython is a blog about the Python programming language. It's aimed at developers of all levels, from beginner to advanced.\n\nI've written several articles to help you learn Python, as well as a series of training courses.\n\nI've also integrated a paid option and a subscription system enabling you to access all the articles, using the Stripe API.",
