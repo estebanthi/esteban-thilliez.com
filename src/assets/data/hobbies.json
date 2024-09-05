@@ -2,11 +2,13 @@
   {"icon":  "https://img.icons8.com/?size=512&id=HX4heYPHBZNg&format=png", "en": "Running", "fr": "Course"},
   {"icon":  "https://img.icons8.com/?size=512&id=16971&format=png", "en":  "Lifting", "fr":  "Musculation"},
   {"icon":  "https://img.icons8.com/?size=512&id=J25BWlGqsAIA&format=png", "en":  "MMA", "fr": "MMA"},
+  {"icon":  "https://img.icons8.com/?size=512&id=kd9exqwDquSJ&format=png", "en":  "Swimming", "fr": "Natation"},
+  {"icon":  "https://img.icons8.com/?size=512&id=u6A1fcsd1q2J&format=png", "en":  "Photography", "fr": "Photographie"},
   {"icon":  "https://img.icons8.com/?size=512&id=56029&format=png", "en":  "Piano", "fr":  "Piano"},
   {"icon":  "https://img.icons8.com/?size=512&id=VzDRYuJN6JLX&format=png", "en": "Guitar", "fr": "Guitare"},
-  {"icon":  "https://img.icons8.com/?size=512&id=43122&format=png", "en":  "Piloting", "fr":  "Pilotage"},
-  {"icon":  "https://img.icons8.com/?size=512&id=42900&format=png", "en":  "Programming", "fr":  "Programmation"},
+  {"icon":  "https://img.icons8.com/?size=512&id=RAkuoIMPVUtm&format=png", "en":  "Piloting", "fr":  "Pilotage"},
+  {"icon":  "https://img.icons8.com/?size=512&id=l0UsZRTvcGel&format=png", "en":  "Programming", "fr":  "Programmation"},
   {"icon":  "https://img.icons8.com/?size=512&id=13171&format=png", "en":  "Reading", "fr":  "Lecture"},
   {"icon":  "https://img.icons8.com/?size=512&id=35639&format=png", "en":  "Writing", "fr":  "Ecriture"},
-  {"icon":  "https://img.icons8.com/?size=512&id=55067&format=png", "en":  "Trading", "fr":  "Trading"}
+  {"icon":  "https://img.icons8.com/?size=512&id=55067&format=png", "en":  "Algorithmic Trading", "fr":  "Trading Algorithmique"}
 ]
