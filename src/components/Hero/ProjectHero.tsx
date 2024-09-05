@@ -64,7 +64,7 @@ const ProjectHero: React.FC<ProjectHeroProps> = ({ title, description, image, li
                         { logo && <img className="ProjectHero__logo" src={require(`../../assets/data/projects/${logo}`)} alt="Project logo" />}
                         <h2 className="ProjectHero__title">{title}</h2>
                         <p className="ProjectHero__description">{description}</p>
-                        <a className="ProjectHero__link" href={link} target="_blank" rel="noopener noreferrer"><IconButton icon={<Eye />} text={t('projects.view')} color={color} onClick={() => { }} /></a>
+                        {link && <a className="ProjectHero__link" href={link} target="_blank" rel="noopener noreferrer"><IconButton icon={<Eye />} text={t('projects.view')} color={color} onClick={() => { }} /></a>}
                     </div>
                     { getSkills(skills).length > 0 &&
                         <div className="ProjectHero__skills">
