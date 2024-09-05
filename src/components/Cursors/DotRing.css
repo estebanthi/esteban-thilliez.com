@@ -61,3 +61,13 @@
 .App.dark .dot--active {
     border: 2px solid var(--main-color-dark-2);
 }
+
+@media (max-width: 768px) {
+  .dot-ring {
+    display: none;
+  }
+
+  .dot {
+    display: none;
+  }
+}
