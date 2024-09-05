@@ -1,5 +1,23 @@
 [
   {
+    "title_fr": "Vintools",
+    "title_en": "Vintools",
+    "description_fr": "Vintools est une suite d'outils closed-source que je propose aux e-commerçants afin d'optimiser leur activité en ligne.\n\nCes outils permettant notamment d'automatiser des tâches récurrentes, de recevoir des notifications lorsque des articles cibles sont publiés sur certaines marketplaces, d'obtenir les articles tendance grâce à l'intelligence artificielle, etc...\n\nContactez-moi pour en savoir plus !",
+    "description_en": "Vintools is a closed-source suite of tools that I offer to e-merchants to optimize their online business.\n\nThese tools allow you to automate recurring tasks, receive notifications when target articles are published on certain marketplaces, get trending articles thanks to artificial intelligence, etc...\n\nContact me to learn more!",
+    "image": "vintools.png",
+    "skills": [
+      "python",
+      "keras",
+      "flask",
+      "react",
+      "aws",
+      "terraform",
+      "ansible",
+      "kubernetes"
+    ],
+    "logo": "vintools-logo.png"
+  },
+  {
     "title_en": "ProPython",
     "title_fr": "ProPython",
     "description_en": "ProPython is a blog about the Python programming language. It's aimed at developers of all levels, from beginner to advanced.\n\nI've written several articles to help you learn Python, as well as a series of training courses.\n\nI've also integrated a paid option and a subscription system enabling you to access all the articles, using the Stripe API.",
@@ -24,19 +42,5 @@
       "javascript"
     ],
     "logo": "mindtopia-logo.png"
-  },
-  {
-    "title_fr": "The Vintageers",
-    "title_en": "The Vintageers",
-    "description_fr": "The Vintageers est une future friperie de vêtements vintage, surtout de la seconde main mais aussi des pièces plus rares comme certaines sneakers de collection.\n\nLe site est en cours de développement.",
-    "description_en": "The Vintageers is a future vintage clothing store, mostly second hand but also rarer pieces like some collection sneakers.\n\nThe site is under development.",
-    "image": "thevintageers.png",
-    "link": "https://www.thevintageers.com/",
-    "skills": [
-      "wordpress",
-      "woocommerce",
-      "php"
-    ],
-    "logo": "thevintageers-logo.png"
-    }
-  ]
+  }
+]
