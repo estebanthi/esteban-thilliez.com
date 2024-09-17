@@ -6,14 +6,11 @@ import { useTranslation } from "react-i18next";
 import {TypeAnimation} from "react-type-animation";
 import IconButton from "../Buttons/IconButton";
 import {
-    Github,
+    CameraFill,
     KanbanFill,
-    Linkedin,
-    Medium,
-    Question,
     QuestionCircleFill,
     RssFill,
-    SendFill, Youtube
+    SendFill
 } from "react-bootstrap-icons";
 import LinkButton from "../Buttons/LinkButton";
 import links from "../../assets/data/links";
@@ -92,6 +89,10 @@ const Introduction: React.FC = () => {
                     {links.map((link, index) => {
                         return <LinkButton key={index} icon={link.icon} link={link.link} color={"color-2"}/>
                     })}
+                </div>
+
+                <div className="photo-portfolio-section">
+                    <a href="https://photo.esteban-thilliez.com" target="_blank" rel="noreferrer">Photo Portfolio</a>
                 </div>
             </div>
             <Me className="me"/>

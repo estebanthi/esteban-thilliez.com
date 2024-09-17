@@ -110,7 +110,6 @@
 
     margin: 10%;
     width: 80%;
-    max-width: 600px;
 }
 
 @media (max-width: 1024px) {
@@ -167,4 +166,39 @@
         transform: translateX(0);
         opacity: 1;
     }
+}
+
+.photo-portfolio-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    margin-bottom: 50px;
+}
+
+.photo-portfolio-section > a {
+    text-decoration: none;
+    color: var(--main-bg-color-dark);
+    border: 1px solid var(--main-bg-color-dark);
+    border-radius: 5px;
+    padding: 10px;
+
+    transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+
+.App.dark .photo-portfolio-section > a {
+    color: var(--main-bg-color-light);
+    border: 1px solid var(--main-bg-color-light);
+}
+
+.photo-portfolio-section > a:hover {
+    background-color: var(--main-bg-color-dark);
+    color: var(--main-bg-color-light);
+}
+
+.App.dark .photo-portfolio-section > a:hover {
+    background-color: var(--main-bg-color-light);
+    color: var(--main-bg-color-dark);
 }
