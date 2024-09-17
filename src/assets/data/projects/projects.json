@@ -1,5 +1,18 @@
 [
   {
+    "title_fr": "Aerotrainer",
+    "title_en": "Aerotrainer",
+    "description_fr": "Aerotrainer est une application web pour réviser les examens théoriques aéronautiques (PPL, ATPL, BB, etc...).\n\nElle propose des questions de type QCM, des statistiques, des explications détaillées, des révisions par thème, etc... Le tout dans un design moderne et épuré, proposé gratuitement !",
+    "description_en": "Aerotrainer is a web application to revise aeronautical theoretical exams (PPL, ATPL, BB, etc...).\n\nIt offers multiple-choice questions, statistics, detailed explanations, revisions by theme, etc... All in a modern and clean design, offered for free!",
+    "image": "aerotrainer.png",
+    "link": "https://aerotrainer.esteban-thilliez.com/",
+    "skills": [
+      "react",
+      "tailwindcss",
+      "nextjs"
+    ]
+  },
+  {
     "title_fr": "Vintools",
     "title_en": "Vintools",
     "description_fr": "Vintools est une suite d'outils closed-source que je propose aux e-commerçants afin d'optimiser leur activité en ligne.\n\nCes outils permettant notamment d'automatiser des tâches récurrentes, de recevoir des notifications lorsque des articles cibles sont publiés sur certaines marketplaces, d'obtenir les articles tendance grâce à l'intelligence artificielle, etc...\n\nContactez-moi pour en savoir plus !",
